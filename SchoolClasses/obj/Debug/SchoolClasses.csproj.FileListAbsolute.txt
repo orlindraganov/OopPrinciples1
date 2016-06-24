@@ -1,1 +1,7 @@
 C:\Orlin\CSharp\OopPrinciples1\SchoolClasses\bin\Debug\SchoolClasses.exe.config
+D:\Orlinovski Tapotii\OopPrinciples1\SchoolClasses\bin\Debug\SchoolClasses.exe.config
+D:\Orlinovski Tapotii\OopPrinciples1\SchoolClasses\bin\Debug\SchoolClasses.exe
+D:\Orlinovski Tapotii\OopPrinciples1\SchoolClasses\bin\Debug\SchoolClasses.pdb
+D:\Orlinovski Tapotii\OopPrinciples1\SchoolClasses\obj\Debug\SchoolClasses.csprojResolveAssemblyReference.cache
+D:\Orlinovski Tapotii\OopPrinciples1\SchoolClasses\obj\Debug\SchoolClasses.exe
+D:\Orlinovski Tapotii\OopPrinciples1\SchoolClasses\obj\Debug\SchoolClasses.pdb

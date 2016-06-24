@@ -1,22 +1,14 @@
 ﻿namespace SchoolClasses.Models
 {
-    public class Discipline
+    using Interfaces;
+    using Validator;
+
+    public class Discipline : School, INameable, ICommentable
     {
         private string name;
         private int numberOfLectures;
         private int numberOfExcercises;
-
-        public string Name
-        {
-            get
-            {
-                return this.name;
-            }
-            set
-            {
-                this.name = value;
-            }
-        }
+        private string comment;
 
         public int NumberOfLectures
         {
@@ -26,6 +18,7 @@
             }
             set
             {
+                Validator.ValidateNonNegative(value, "NumberOfLectures");
                 this.numberOfLectures = value;
             }
         }
@@ -38,13 +31,25 @@
             }
             set
             {
+                Validator.ValidateNonNegative(value, "NumberOfExcercises");
                 this.numberOfExcercises = value;
             }
         }
 
-        public Discipline(string name, int numberOfLectures, int numberOfExcercises)
+        public string Comment
         {
-            this.Name = name;
+            get
+            {
+                return this.comment;
+            }
+            set
+            {
+                this.comment = value;
+            }
+        }
+
+        public Discipline(string name, int numberOfLectures, int numberOfExcercises) : base (name)
+        {
             this.NumberOfLectures = numberOfLectures;
             this.NumberOfExcercises = numberOfExcercises;
         }

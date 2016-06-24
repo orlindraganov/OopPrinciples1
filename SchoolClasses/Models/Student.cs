@@ -2,8 +2,9 @@
 {
     public class Student : Person
     {
+        private string name;
         private string classNumber;
-
+     
         public string ClassNumber
         {
             get

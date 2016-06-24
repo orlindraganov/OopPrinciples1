@@ -1,11 +1,14 @@
 ﻿namespace SchoolClasses.Models
 {
+    using Interfaces;
     using System.Collections.Generic;
 
 
-    public class Teacher : Person
+    public class Teacher : Person, INameable, ICommentable
     {
+        private string name;
         private List<Discipline> disciplines;
+        private string comment;
 
         public List<Discipline> Disciplines
         {

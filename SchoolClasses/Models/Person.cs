@@ -1,6 +1,7 @@
 ﻿namespace SchoolClasses.Models
 {
-    using SchoolClasses.Interfaces;
+    using Interfaces;
+    using Validator;
 
     public abstract class Person : INameable, ICommentable
     {
@@ -15,6 +16,7 @@
             }
             set
             {
+                Validator.ValidateNullOrWhiteSpace(value, "Person name");
                 this.name = value;
             }
         }

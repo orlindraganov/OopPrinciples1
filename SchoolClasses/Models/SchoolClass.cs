@@ -1,29 +1,17 @@
 ﻿namespace SchoolClasses.Models
 {
-    using System;
     using System.Collections.Generic;
 
     using Interfaces;
 
 
-    public class SchoolClass : ICommentable
+    public class SchoolClass : School, ICommentable
     {
+        #region Fields, Props, Ctors
         private string name;
         private List<Student> students;
         private List<Teacher> teachers;
         private string comment;
-
-        public string Name
-        {
-            get
-            {
-                return this.name;
-            }
-            set
-            {
-                this.name = value;
-            }
-        }
 
         public List<Student> Students
         {
@@ -55,18 +43,39 @@
             {
                 return this.comment;
             }
-                set
+            set
             {
                 this.comment = value;
             }
         }
 
-
-        public SchoolClass(string name, List<Student> students, List<Teacher> teachers)
+        public SchoolClass(string name, List<Student> students, List<Teacher> teachers) : base(name)
         {
-            this.Name = name;
             this.Students = students;
             this.Teachers = teachers;
         }
+        #endregion
+
+        #region Methods
+        public void AddStudent(Student student)
+        {
+            Students.Add(student);
+        }
+
+        public void RemoveStudent(Student student)
+        {
+            Students.Remove(student);
+        }
+
+        public void AddTeacher(Teacher teacher)
+        {
+            Teachers.Add(teacher);
+        }
+
+        public void RemoveTeacher(Teacher teacher)
+        {
+            Teachers.Remove(teacher);
+        }
+        #endregion
     }
 }
