@@ -3,3 +3,9 @@ D:\Orlinovski Tapotii\OopPrinciples1\StudentsAndWorkers\bin\Debug\StudentsAndWor
 D:\Orlinovski Tapotii\OopPrinciples1\StudentsAndWorkers\bin\Debug\StudentsAndWorkers.pdb
 D:\Orlinovski Tapotii\OopPrinciples1\StudentsAndWorkers\obj\Debug\StudentsAndWorkers.exe
 D:\Orlinovski Tapotii\OopPrinciples1\StudentsAndWorkers\obj\Debug\StudentsAndWorkers.pdb
+D:\Orlin\CSharpHomeworks\OopPrinciples1\StudentsAndWorkers\bin\Debug\StudentsAndWorkers.exe.config
+D:\Orlin\CSharpHomeworks\OopPrinciples1\StudentsAndWorkers\obj\Debug\StudentsAndWorkers.exe
+D:\Orlin\CSharpHomeworks\OopPrinciples1\StudentsAndWorkers\obj\Debug\StudentsAndWorkers.pdb
+D:\Orlin\CSharpHomeworks\OopPrinciples1\StudentsAndWorkers\obj\Debug\StudentsAndWorkers.csprojResolveAssemblyReference.cache
+D:\Orlin\CSharpHomeworks\OopPrinciples1\StudentsAndWorkers\bin\Debug\StudentsAndWorkers.exe
+D:\Orlin\CSharpHomeworks\OopPrinciples1\StudentsAndWorkers\bin\Debug\StudentsAndWorkers.pdb

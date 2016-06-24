@@ -43,13 +43,13 @@
         #region Methods
         public decimal MoneyPerHour()
         {
-            decimal moneyPerHour = (this.WeeklySalary / GlobalConsts.workDaysPerWeek) / (decimal)workHoursPerDay;
+            decimal moneyPerHour = decimal.Round(((this.WeeklySalary / GlobalConsts.workDaysPerWeek) / (decimal)workHoursPerDay), 2);
             return moneyPerHour;
         }
 
         public override string ToString()
         {
-            return string.Format($"Name: {this.FullName}, Weekly Salary: {this.WeeklySalary}, Working Hours Per Day {this.WorkHoursPerDay}");
+            return string.Format($"Name: {this.FullName}, Hrly Pay: {this.MoneyPerHour()}, Wkly Pay: {this.WeeklySalary}, Daily Wrk Hrs{this.WorkHoursPerDay}");
         }
         #endregion
     }

@@ -17,16 +17,13 @@
             var people = new List<Student>();
             for (int i = 0; i < count; i++)
             {
-                people.Add(new Student(firstNames[rand.Next(0, firstNames.Count - 1)], lastNames[rand.Next(0, lastNames.Count - 1)], rand.Next(2, 6)));
+                int grade = rand.Next(2, 6);
+                people.Add(new Student(
+                    firstNames[rand.Next(0, firstNames.Count - 1)], 
+                    lastNames[rand.Next(0, lastNames.Count - 1)], 
+                    grade));
             }
             return people;
-        }
-
-        public static List<Student> SortByGrade(List<Student> students)
-        {
-            return (from st in students
-                    orderby st.Grade ascending
-                    select st).ToList<Student>();
         }
 
         public static List<Worker> PopulateWorkerList(int count = 10)
@@ -45,11 +42,10 @@
             return people;
         }
 
-        public static List<Worker> SortByMoneyPerHour(List<Worker> workers)
+        public static List<Human> MergeLists(List<Human> firstList, List<Human> secondList)
         {
-            return (from wrk in workers
-                    orderby wrk.MoneyPerHour() descending
-                    select wrk).ToList();
+            firstList.AddRange(secondList);
+            return firstList;
         }
     }
 }
