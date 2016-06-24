@@ -1,1 +1,6 @@
 D:\Orlin\CSharpHomeworks\OopPrinciples1\Animals\bin\Debug\Animals.exe.config
+D:\Orlin\CSharpHomeworks\OopPrinciples1\Animals\obj\Debug\3.Animals.csprojResolveAssemblyReference.cache
+D:\Orlin\CSharpHomeworks\OopPrinciples1\Animals\bin\Debug\Animals.exe
+D:\Orlin\CSharpHomeworks\OopPrinciples1\Animals\bin\Debug\Animals.pdb
+D:\Orlin\CSharpHomeworks\OopPrinciples1\Animals\obj\Debug\Animals.exe
+D:\Orlin\CSharpHomeworks\OopPrinciples1\Animals\obj\Debug\Animals.pdb

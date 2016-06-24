@@ -1,0 +1,3 @@
+D:\Orlin\CSharpHomeworks\OopPrinciples1\StudentsAndWorkers\bin\Debug\StudentsAndWorkers.exe.config
+D:\Orlin\CSharpHomeworks\OopPrinciples1\StudentsAndWorkers\obj\Debug\StudentsAndWorkers.exe
+D:\Orlin\CSharpHomeworks\OopPrinciples1\StudentsAndWorkers\obj\Debug\StudentsAndWorkers.pdb
